@@ -1,0 +1,263 @@
+#name {
+  font-family: sans-serif;
+  color: #4CA1A3;
+  font-size: 38px;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 240px;
+}
+
+#ul1 {
+  font-family: Helvetica;
+  color: Black;
+  font-size: 16px;
+  position: absolute;
+  top: 110px;
+  left: 220px;
+  line-height: 22px;
+}
+
+#hr1 {
+  background: linear-gradient(-45deg, #21094E, #511281, #4CA1A3, #A5E1AD);
+	background-size: 200% 200%;
+	animation: gradient 15s ease infinite;
+  position: relative;
+  top: 5px;
+  height: 35px;
+}
+
+#hr2 {
+  color: black;
+  background-color: black;
+  border: black;
+  position: absolute;
+  left: 14px;
+  top: 140px;
+  height: 850px;
+  width: 2px;
+}
+
+#small1, #small2, #small3 {
+  font-size: 14px;
+}
+
+#img1 {
+  position: absolute;
+  left: 0px;
+  top: 140px;
+}
+
+#img2 {
+  position: absolute;
+  left: 0px;
+  top: 450px;
+}
+
+#img3 {
+  position: absolute;
+  left: 2px;
+  top: 750px;
+}
+
+#img4 {
+  position: absolute;
+  left: 2px;
+  top: 850px;
+}
+
+#img5 {
+  position: absolute;
+  left: 650px;
+  top: 0;
+  border: 4px solid DodgerBlue;
+}
+
+#profile {
+  font-family: sans-serif;
+  color: #4CA1A3;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  top: 120px;
+  left: 50px;
+}
+
+#profile_data {
+  font-family: Helvetica;
+  color: Black;
+  font-size: 16px;
+  position: absolute;
+  top: 160px;
+  left: 50px;
+  line-height: 22px;
+}
+
+#personal_details {
+  font-family: sans-serif;
+  color: #4CA1A3;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  top: 270px;
+  left: 50px;
+}
+
+#personal_data {
+  font-family: Helvetica;
+  color: Black;
+  font-size: 16px;
+  position: absolute;
+  top: 310px;
+  left: 50px;
+  line-height: 22px;
+}
+
+#education {
+  font-family: sans-serif;
+  color: #4CA1A3;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  top: 430px;
+  left: 50px;
+}
+
+#education_data {
+  font-family: Helvetica;
+  color: Black;
+  font-size: 16px;
+  position: absolute;
+  top: 470px;
+  left: 50px;
+  line-height: 22px;
+}
+
+#education_data2 {
+  font-family: Helvetica;
+  color: Black;
+  font-size: 16px;
+  position: absolute;
+  top: 615px;
+  left: 50px;
+  line-height: 22px;
+}
+
+.div1 {
+  background: linear-gradient(-45deg, #21094E, #511281, #4CA1A3, #A5E1AD);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  position: absolute;
+  left: 10px;
+  top: 60px;
+  width: 175px;
+  height: 1060px;
+  box-shadow: 4px 4px 4px 4px #312571;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+#edu_table {
+  position: absolute;
+  top: 515px;
+  left: 50px;
+  border: 2px solid darkgreen;
+}
+
+th, td {
+  border: 1px solid darkgreen;
+}
+
+#edu_table2 {
+  position: absolute;
+  top: 660px;
+  left: 50px;
+  border: 2px solid darkgreen;
+}
+
+#skills {
+  font-family: sans-serif;
+  color: #4CA1A3;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  top: 730px;
+  left: 50px;
+}
+
+#skills_list {
+  font-family: Helvetica;
+  color: Black;
+  font-size: 16px;
+  position: absolute;
+  top: 780px;
+  left: 30px;
+  line-height: 22px;
+}
+
+#askills {
+  font-family: sans-serif;
+  color: #4CA1A3;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  top: 830px;
+  left: 50px;
+}
+
+#askills_list {
+  font-family: Helvetica;
+  color: Black;
+  font-size: 16px;
+  position: absolute;
+  top: 880px;
+  left: 30px;
+  line-height: 22px;
+}
+
+#div_h1 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: fantasy;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  padding-left: 20px;
+}
+
+#cuchd_link {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  color: white;
+  padding-left: 40px;
+  position: absolute;
+  top: 280px;
+}
+
+#blender_link {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  color: white;
+  padding-left: 35px;
+  position: absolute;
+  top: 1000px;
+}
